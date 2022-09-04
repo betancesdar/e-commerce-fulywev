@@ -4,13 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Fulyweb Store</title>
 </head>
 <body>
     <!--Dario Menu y Fotos-->
+    <nav class="custom-navbar navbar navbar navbar-expand-md navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="assets/logoSmall.png" width="120px" height="40px"></a>
 
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsFurni" aria-controls="navbarsFurni" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
+            <div class="collapse navbar-collapse" id="navbarsFurni">
+                <ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li><a class="nav-link" href="shop.html">Compra</a></li>
+                    <li><a class="nav-link" href="about.html">Nosotros</a></li>
+                    <li><a class="nav-link" href="contact.html">Contactos</a></li>
+                </ul>
+
+                <ul class="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
+                    <li><a class="nav-link" href="cart.html"><img src="assets/cart.svg"></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Slider start here-->
+   
 
     <!--Pablo-Contenido-->
     
@@ -19,5 +46,12 @@
     <!--Gerald-Footer-->
 
     
+
+
+    <!--Javascript Zone-->
+    <script src="js/main.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/tiny-slider.js"></script>
+
 </body>
 </html>
