@@ -96,6 +96,9 @@ a.more {
   .custom-navbar .custom-navbar-cta {
     margin-left: 40px !important;
   }
+  .carousel-item{
+    height: 500px;
+  }
 }
 .custom-navbar .custom-navbar-cta li {
   margin-left: 0px;
@@ -104,6 +107,9 @@ a.more {
 .custom-navbar .custom-navbar-cta li:first-child {
   margin-right: 20px;
 }
+
+
+
 
 
 /*Content: Pablo*/
@@ -245,10 +251,12 @@ a.more {
 }
 
 .redes-socilaes {
+  position: relative;
   background-color: #c9c0a5;
   width: 40px;
   height: 40px;
   border-radius: 50%;
+  bottom: 12;
 }
 
 .redes {
@@ -276,7 +284,12 @@ a.more {
   .facebook img, svg{
   width: 20px;
   height: 20px;
-  padding: 10px;
+  margin-bottom: 10px;
+ 
+ }
+ .redes-socilaes .facebook img{
+  color: #1c1f1b;
+  
  }
 
 
@@ -328,7 +341,11 @@ a.more {
   width: 375px;
   max-width: 375px;
   margin-left: 10px;
+  
 
+}
+.Newsletter{
+  margin-top: 20px;
 }
 
 .seccion {
@@ -425,12 +442,14 @@ a.more {
   }
   .termino {
       margin-left: 390px;
+   
   
   }
 
   .termino ul {
       display: inline-flex !important;        
       margin-top: 0;
+      
   }
 
   .seccion {
@@ -487,6 +506,10 @@ a.more {
 .termino a {
   text-decoration: none;
   gap: 2rem;
+  color: #1c1f1b;
 
 
+}
+.termino  a:hover {
+  color: #7a9282;
 }
