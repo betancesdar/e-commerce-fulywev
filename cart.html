@@ -68,76 +68,130 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
-  <!--Pablo-Contenido-->
-  <h2>Articulos FulyWeb</h2>
-  <section id="comprar" class="articles">
-    <div class="container">
-      <article class="articles_items">
-        <img src="/assets/galery_image/Apple_Imac.png" alt="Imac">
-        <p class="description dsitem_1">Apple Imac</p>
-        <p class="price item_1">899 $</p>
-
-      </article>
-      <article class="articles_items">
-        <img src="/assets/galery_image/Apple_Iphone_11pro.png" alt="Iphone">
-        <p class="description dsitem_2">Apple Iphone 11 pro</p>
-        <p class="price item_2">299 $</p>
-
-      </article>
-      <article class="articles_items">
-        <img src="/assets/galery_image/auriculares_inalambricos.png" alt="Auriculares">
-        <p class="description dsitem_3">Auriculares Inalambricos</p>
-        <p class="price item_3">39 $</p>
-      </article>
-      <article class="articles_items">
-        <img src="/assets/galery_image/Carcasa_PC_ATX.png" alt="Carcasa">
-        <p class="description dsitem_4">Carcasa de PC ATX</p>
-        <p class="price item_4">299 $</p>
-      </article>
-      <article class="articles_items">
-        <img src="/assets/galery_image/Laptop_Dynabook_Satellite.png" alt="laptop">
-        <p class="description dsitem_5">Laptop Dynabook Satellite</p>
-        <p class="price item_5">197 $</p>
-      </article>
-      <article class="articles_items">
-        <img src="/assets/galery_image/Pantalla_65pulgadas_VESA.png" alt="pantalla">
-        <p class="description dsitem_6">Pantalla 65pulgadas VESA</p>
-        <p class="price item_6">395 $</p>
-      </article>
-      <article class="articles_items">
-        <img src="/assets/galery_image/Pantalla_Samsung_40pulgadas.png" alt="pantalla samsung">
-        <p class="description dsitem_7">Pantalla Samsung 40pulgadas</p>
-        <p class="price item_7">322 $</p>
-      </article>
-      <article class="articles_items">
-        <img src="/assets/galery_image/PC_Dell_Optiplex.png" alt="pc dell">
-        <p class="description dsitem_8">PC Dell Optiplex</p>
-        <p class="price item_8">197 $</p>
-      </article>
-      <article class="articles_items">
-        <img src="/assets/galery_image/Pc_gamer.png" alt="pc gamer">
-        <p class="description dsitem_9">Pc Gamer</p>
-        <p class="price item_9">465 $</p>
-      </article>
-      <article class="articles_items">
-        <img src="/assets/galery_image/PlayStation_4.png" alt="Play4">
-        <p class="description dsitem_10">PlayStation 4</p>
-        <p class="price item_10">215 $</p>
-      </article>
-      <article class="articles_items">
-        <img src="/assets/galery_image/Smartphone_Android-remove.png" alt="Smartphone">
-        <p class="description dsitem_11">Smartphone Android</p>
-        <p class="price item_11">187 $</p>
-      </article>
-      <article class="articles_items">
-        <img src="/assets/galery_image/Teclado_mouse_inalambrico.png" alt="teclado">
-        <p class="description dsitem_12">Teclado mouse inalambrico</p>
-        <p class="price item_12">99 $</p>
-      </article>
 
 
+  <!--**************************** CARRITO**************************-->
+
+
+
+  <section class="carrito contenedor">
+
+    <div class="row mb-5">
+      <form class="col-md-12" method="post">
+        <div class="site-blocks-table">
+          <table class="table">
+            <thead>
+              <tr>
+                <th class="product-thumbnail">Imagen</th>
+                <th class="product-name">Producto</th>
+                <th class="product-price">Precio</th>
+                <th class="product-quantity">Cantidad</th>
+                <th class="product-total">Total</th>
+                <th class="product-remove">Quitar</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="product-thumbnail">
+                  <img src="/assets/audifonos.png" alt="Image" class="img-fluid">
+                </td>
+                <td class="product-name">
+                  <h2 class="h5 text-black">Producto 1</h2>
+                </td>
+                <td>$49.00</td>
+                <td>
+                  <div class="input-group mb-3 d-flex align-items-center quantity-container" style="max-width: 120px;">
+                    <div class="input-group-prepend">
+                      <button class="btn btn-outline-black decrease" type="button">−</button>
+                    </div>
+                    <input type="text" class="form-control text-center quantity-amount" value="1" placeholder=""
+                      aria-label="Example text with button addon" aria-describedby="button-addon1">
+                    <div class="input-group-append">
+                      <button class="btn btn-outline-black increase" type="button">+</button>
+                    </div>
+                  </div>
+                </td>
+                <td>$49.00</td>
+                <td><a href="#" class="btn btn-black btn-sm">X</a></td>
+              </tr>
+              <tr>
+                <td class="product-thumbnail">
+                  <img src="/assets/PlayStation_4.png" " alt=" Image" class="img-fluid">
+                </td>
+                <td class="product-name">
+                  <h2 class="h5 text-black">Producto 2</h2>
+                </td>
+                <td>$49.00</td>
+                <td>
+                  <div class="input-group mb-3 d-flex align-items-center quantity-container" style="max-width: 120px;">
+                    <div class="input-group-prepend">
+                      <button class="btn btn-outline-black decrease" type="button">−</button>
+                    </div>
+                    <input type="text" class="form-control text-center quantity-amount" value="1" placeholder=""
+                      aria-label="Example text with button addon" aria-describedby="button-addon1">
+                    <div class="input-group-append">
+                      <button class="btn btn-outline-black increase" type="button">+</button>
+                    </div>
+                  </div>
+                </td>
+                <td>$49.00</td>
+                <td><a href="#" class="btn btn-black btn-sm">X</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </form>
     </div>
+    <!--**********************TOTAL CARRITO**************************************************-->
+
+    <div class="col-md-6 pl-5 pagar-carrito2">
+      <div class="row justify-content-end">
+        <div class="col-md-7">
+          <div class="row">
+            <div class="col-md-12 text-right border-bottom mb-5">
+              <h3 class="text-black h4 text-uppercase">Total Articulos</h3>
+            </div>
+            <div class="linea2"></div>
+          </div>
+          <div class="row mb-3 totall">
+            <div class="col-md-6">
+              <span class="text-black">Subtotal</span>
+            </div>
+            <div class="col-md-6 text-right">
+              <strong class="text-black">$230.00</strong>
+            </div>
+          </div>
+          <div class="row mb-5">
+            <div class="col-md-6">
+              <span class="text-black">Total</span>
+            </div>
+            <div class="col-md-6 text-right">
+              <strong class="text-black">$230.00</strong>
+            </div>
+          </div>
+          <div class="row">
+
+            <div class="col-md-12 pagar-carrito">
+              <a class="boton2" href="#" target="_blank">Pagar ahora</a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--**********************************************************************************-->
+
+
+
+
+
+
   </section>
+
+
+
+
 
   <!--Gerald-Footer-->
   <section class="contenedor">
@@ -264,6 +318,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
     integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
     crossorigin="anonymous"></script>
+
 
 
 
