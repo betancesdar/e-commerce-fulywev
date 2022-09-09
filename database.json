@@ -1,0 +1,75 @@
+[
+    {
+        "precio": 500,
+        "id": 1,
+        "title": "Apple Imac",
+        "imagen": "/assets/galery_image/Apple_Imac.png"
+    },
+    {
+        "precio": 300,
+        "id": 2,
+        "title": "Apple Iphone 11 pro",
+        "imagen": "/assets/galery_image/Apple_Iphone_11pro.png"
+    },
+    {
+        "precio": 100,
+        "id": 3,
+        "title": "Auriculares Inalambricos",
+        "imagen": "/assets/galery_image/auriculares_inalambricos.png"
+    },
+    {
+        "precio": 310,
+        "id": 4,
+        "title": "Carcasa de PC ATX",
+        "imagen": "/assets/galery_image/Carcasa_PC_ATX.png"
+    },
+    {
+        "precio": 225,
+        "id": 5,
+        "title": "Laptop Dynabook Satellite",
+        "imagen": "/assets/galery_image/Laptop_Dynabook_Satellite.png"
+    },
+    {
+        "precio": 150,
+        "id": 6,
+        "title": "Pantalla 65pulgadas VESA",
+        "imagen": "/assets/galery_image/Pantalla_65pulgadas_VESA.png"
+    },
+    {
+        "precio": 250,
+        "id": 7,
+        "title": "Pantalla Samsung 40pulgadas",
+        "imagen": "/assets/galery_image/Pantalla_Samsung_40pulgadas.png"
+    },
+    {
+        "precio": 150,
+        "id": 8,
+        "title": "PC Dell Optiplex",
+        "imagen": "/assets/galery_image/PC_Dell_Optiplex.png"
+    },
+    {
+        "precio": 800,
+        "id": 9,
+        "title": "Pc Gamer",
+        "imagen": "/assets/galery_image/Pc_gamer.png"
+    },
+    {
+        "precio": 375,
+        "id": 10,
+        "title": "PlayStation 4",
+        "imagen": "/assets/galery_image/PlayStation_4.png"
+    },
+    {
+        "precio": 76,
+        "id": 11,
+        "title": "Smartphone Android",
+        "imagen": "/assets/galery_image/Smartphone_Android-remove.png"
+    },
+    {
+        "precio": 25,
+        "id": 12,
+        "title": "Teclado mouse inalambrico",
+        "imagen": "/assets/galery_image/Teclado_mouse_inalambrico.png"
+    }
+
+]

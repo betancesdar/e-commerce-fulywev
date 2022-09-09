@@ -108,11 +108,73 @@ a.more {
   margin-right: 20px;
 }
 
+.btn-primary {
+  color: #fff;
+  background-color: #2877b5!important ;
+  border-color: #2877b5!important ;
+  margin-bottom: 40px;
+  margin-left: -80px;
+}
+
+
+ 
+
+
 
 
 
 
 /*Content: Pablo*/
+
+
+
+.productos-contenedor{
+  max-width: 1200px;
+  margin-top: 100px;
+
+}
+
+.img-2{
+  width: 100px;
+  height: 100px;
+  margin-left: 0;
+}
+
+.btn-dark{
+  color: #2877b5;
+  background-color: #2877B5!important ;
+}
+
+.text-center{
+  margin-top: 100px;
+}
+
+@media(min-width:768px) {
+  .tienda{
+    padding: 250px;
+  }
+
+}
+
+.finalizar-compra{
+  background-color: #008000!important;
+}
+
+
+
+.tienda{
+  justify-content: center;
+}
+.tienda .card-img-top{
+ width: 300px;
+ height: 300px;
+ align-items: center;
+}
+.card-img-top{
+  margin: 0 auto;
+}
+/********************************************/
+
 
 h2 {
   font-size: 42px;
